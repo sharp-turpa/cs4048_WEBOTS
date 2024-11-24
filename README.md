@@ -33,7 +33,7 @@ ros2_ws (my working directory)
 1. Create a working directory, for example mine is ros_ws.
 2. Clone the repo
 3. Install WEBOTS https://cyberbotics.com/#download
-4. Change you directory,using: `cd <your_working_space>/src`
-5. source ros with `source /opt/ros/jazzy/setup.bash` then build and run `colcon build && source install/local_setup.bash && ros2 launch pyrobosim_ros demo_commands_multirobot.launch.py`
+4. Change you directory,using: `cd <your_working_space>`
+5. source ros with `source /opt/ros/jazzy/setup.bash` then build and run `colcon build && source install/local_setup.bash && ros2 launch my_package robot_launch.py`
 
 

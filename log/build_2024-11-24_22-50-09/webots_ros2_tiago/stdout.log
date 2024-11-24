@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info
+writing ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/PKG-INFO
+writing dependency_links to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/dependency_links.txt
+writing entry points to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/entry_points.txt
+writing requirements to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/requires.txt
+writing top-level names to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/top_level.txt
+writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+reading manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/ament_index
+creating /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/ament_index/resource_index
+creating /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+copying resource/webots_ros2_tiago -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+creating /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+copying launch/robot_launch.py -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+copying launch/robot_bringup_launch.py -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+creating /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/tiago_webots.urdf -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/tiago_bringup_webots.urdf -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/ros2_control.yml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/ros2_control_bringup.yml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/nav2_params.yaml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/nav2_params_iron.yaml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/default.rviz -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/default_bringup.rviz -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/map.pgm -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/map.yaml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/cartographer.lua -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/slam_toolbox_params.yaml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying package.xml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago
+creating /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+copying worlds/default.wbt -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+copying worlds/.default.wbproj -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+copying worlds/default_bringup.wbt -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+copying worlds/.default_bringup.wbproj -> /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+running install_egg_info
+Copying ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info to /home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/lib/python3.12/site-packages/webots_ros2_tiago-2023.1.3-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/vboxuser/ros2_main_ws/build/webots_ros2_tiago/install.log'

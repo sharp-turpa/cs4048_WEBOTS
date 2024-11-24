@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_ros2_msgs/srv/SpawnUrdfRobot.srv
+// generated code does not contain a copyright notice
+
+#include "webots_ros2_msgs/msg/UrdfRobot.idl"
+
+module webots_ros2_msgs {
+  module srv {
+    struct SpawnUrdfRobot_Request {
+      webots_ros2_msgs::msg::UrdfRobot robot;
+    };
+    struct SpawnUrdfRobot_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,630 @@
+[0.412s] Invoking command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_main_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/ros2_main_ws/src/webots_ros2/webots_ros2_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs
+[0.808s] -- The C compiler identification is GNU 13.2.0
+[1.087s] -- The CXX compiler identification is GNU 13.2.0
+[1.131s] -- Detecting C compiler ABI info
+[1.301s] -- Detecting C compiler ABI info - done
+[1.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.325s] -- Detecting C compile features
+[1.328s] -- Detecting C compile features - done
+[1.357s] -- Detecting CXX compiler ABI info
+[1.515s] -- Detecting CXX compiler ABI info - done
+[1.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.544s] -- Detecting CXX compile features
+[1.545s] -- Detecting CXX compile features - done
+[1.565s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.819s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.027s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.123s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.155s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.298s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.338s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.350s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.446s] -- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)
+[3.876s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.881s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.887s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.892s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.141s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.377s] -- Found PythonExtra: /usr/bin/python3  
+[7.162s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.303s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.308s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.315s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.377s] -- Added test 'lint_cmake' to check CMake code style
+[7.383s] -- Added test 'xmllint' to check XML markup files
+[7.396s] -- Configuring done (6.9s)
+[7.556s] -- Generating done (0.1s)
+[7.564s] -- Build files have been written to: /home/vboxuser/ros2_main_ws/build/webots_ros2_msgs
+[7.588s] Invoked command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_main_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/ros2_main_ws/src/webots_ros2/webots_ros2_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs
+[7.591s] Invoking command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_main_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/ros2_main_ws/build/webots_ros2_msgs -- -j2 -l2
+[7.672s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.687s] [  1%] Built target ament_cmake_python_copy_webots_ros2_msgs
+[8.150s] running egg_info
+[8.151s] creating webots_ros2_msgs.egg-info
+[8.209s] writing webots_ros2_msgs.egg-info/PKG-INFO
+[8.210s] writing dependency_links to webots_ros2_msgs.egg-info/dependency_links.txt
+[8.210s] writing top-level names to webots_ros2_msgs.egg-info/top_level.txt
+[8.211s] writing manifest file 'webots_ros2_msgs.egg-info/SOURCES.txt'
+[8.331s] reading manifest file 'webots_ros2_msgs.egg-info/SOURCES.txt'
+[8.331s] writing manifest file 'webots_ros2_msgs.egg-info/SOURCES.txt'
+[8.371s] [  1%] Built target ament_cmake_python_build_webots_ros2_msgs_egg
+[8.613s] [  1%] Built target webots_ros2_msgs__rosidl_generator_type_description
+[8.630s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.646s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.700s] [  2%] Built target webots_ros2_msgs__cpp
+[12.070s] [  2%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/bool_stamped__description.c.o[0m
+[12.071s] [  3%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/bool_stamped__functions.c.o[0m
+[12.175s] [  4%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/bool_stamped__type_support.c.o[0m
+[12.195s] [  4%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/float_stamped__description.c.o[0m
+[12.238s] [  5%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/float_stamped__functions.c.o[0m
+[12.269s] [  6%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/float_stamped__type_support.c.o[0m
+[12.316s] [  6%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/string_stamped__description.c.o[0m
+[12.328s] [  7%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/string_stamped__functions.c.o[0m
+[12.397s] [  8%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/string_stamped__type_support.c.o[0m
+[12.415s] [  9%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_object__description.c.o[0m
+[12.447s] [  9%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.c.o[0m
+[12.514s] [ 10%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.c.o[0m
+[12.544s] [ 11%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__description.c.o[0m
+[12.569s] [ 11%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__functions.c.o[0m
+[12.643s] [ 12%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.c.o[0m
+[12.663s] [ 13%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/urdf_robot__description.c.o[0m
+[12.703s] [ 13%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/urdf_robot__functions.c.o[0m
+[12.736s] [ 14%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/urdf_robot__type_support.c.o[0m
+[12.786s] [ 15%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/pen_ink_properties__description.c.o[0m
+[12.792s] [ 15%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/pen_ink_properties__functions.c.o[0m
+[12.849s] [ 16%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.c.o[0m
+[12.905s] [ 17%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/emitter_send_string__description.c.o[0m
+[12.926s] [ 18%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/emitter_send_string__functions.c.o[0m
+[13.046s] [ 18%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.c.o[0m
+[13.101s] [ 19%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/get_bool__description.c.o[0m
+[13.134s] [ 20%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/get_bool__functions.c.o[0m
+[13.199s] [ 20%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/get_bool__type_support.c.o[0m
+[13.289s] [ 21%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/set_string__description.c.o[0m
+[13.295s] [ 22%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/set_string__functions.c.o[0m
+[13.402s] [ 22%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/set_string__type_support.c.o[0m
+[13.434s] [ 23%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__description.c.o[0m
+[13.469s] [ 24%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__functions.c.o[0m
+[13.512s] [ 25%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.c.o[0m
+[13.587s] [ 25%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__description.c.o[0m
+[13.615s] [ 26%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__functions.c.o[0m
+[13.679s] [ 27%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.c.o[0m
+[13.751s] [ 27%] [32m[1mLinking C shared library libwebots_ros2_msgs__rosidl_generator_c.so[0m
+[13.825s] [ 27%] Built target webots_ros2_msgs__rosidl_generator_c
+[13.843s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.845s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.265s] [ 29%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/bool_stamped__type_support.cpp.o[0m
+[15.953s] [ 30%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/float_stamped__type_support.cpp.o[0m
+[16.575s] [ 31%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/string_stamped__type_support.cpp.o[0m
+[16.800s] [ 32%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/bool_stamped__type_support_c.cpp.o[0m
+[17.176s] [ 32%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/camera_recognition_object__type_support.cpp.o[0m
+[17.986s] [ 33%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/float_stamped__type_support_c.cpp.o[0m
+[18.091s] [ 34%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/camera_recognition_objects__type_support.cpp.o[0m
+[18.990s] [ 35%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/urdf_robot__type_support.cpp.o[0m
+[19.370s] [ 35%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/string_stamped__type_support_c.cpp.o[0m
+[19.693s] [ 35%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/pen_ink_properties__type_support.cpp.o[0m
+[20.356s] [ 36%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support_c.cpp.o[0m
+[20.359s] [ 37%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/emitter_send_string__type_support.cpp.o[0m
+[21.125s] [ 38%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/get_bool__type_support.cpp.o[0m
+[21.318s] [ 39%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support_c.cpp.o[0m
+[21.922s] [ 39%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/set_string__type_support.cpp.o[0m
+[22.253s] [ 39%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/urdf_robot__type_support_c.cpp.o[0m
+[22.778s] [ 40%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/spawn_node_from_string__type_support.cpp.o[0m
+[23.245s] [ 41%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support_c.cpp.o[0m
+[23.597s] [ 42%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/spawn_urdf_robot__type_support.cpp.o[0m
+[24.141s] [ 43%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/emitter_send_string__type_support_c.cpp.o[0m
+[24.452s] [ 43%] [32m[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_cpp.so[0m
+[24.623s] [ 43%] Built target webots_ros2_msgs__rosidl_typesupport_cpp
+[24.648s] [ 44%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[25.100s] [ 44%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/get_bool__type_support_c.cpp.o[0m
+[26.121s] [ 45%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/set_string__type_support_c.cpp.o[0m
+[27.190s] [ 46%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support_c.cpp.o[0m
+[27.544s] [ 47%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/bool_stamped__type_support.cpp.o[0m
+[28.217s] [ 47%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support_c.cpp.o[0m
+[28.516s] [ 47%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/float_stamped__type_support.cpp.o[0m
+[29.188s] [ 48%] [32m[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.344s] [ 48%] Built target webots_ros2_msgs__rosidl_typesupport_fastrtps_c
+[29.359s] [ 49%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[29.490s] [ 50%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/string_stamped__type_support.cpp.o[0m
+[30.436s] [ 51%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/camera_recognition_object__type_support.cpp.o[0m
+[31.349s] [ 51%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/bool_stamped__type_support.c.o[0m
+[31.427s] [ 52%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/float_stamped__type_support.c.o[0m
+[31.489s] [ 53%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/string_stamped__type_support.c.o[0m
+[31.495s] [ 53%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/camera_recognition_objects__type_support.cpp.o[0m
+[31.565s] [ 53%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.c.o[0m
+[31.648s] [ 54%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.c.o[0m
+[31.723s] [ 55%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/urdf_robot__type_support.c.o[0m
+[31.789s] [ 55%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.c.o[0m
+[31.858s] [ 56%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.c.o[0m
+[31.952s] [ 57%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/get_bool__type_support.c.o[0m
+[32.029s] [ 58%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/set_string__type_support.c.o[0m
+[32.104s] [ 58%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.c.o[0m
+[32.188s] [ 59%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.c.o[0m
+[32.276s] [ 60%] [32m[1mLinking C shared library libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so[0m
+[32.362s] [ 60%] Built target webots_ros2_msgs__rosidl_typesupport_introspection_c
+[32.379s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.587s] [ 62%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/urdf_robot__type_support.cpp.o[0m
+[33.545s] [ 63%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/pen_ink_properties__type_support.cpp.o[0m
+[33.762s] [ 63%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/bool_stamped__type_support.cpp.o[0m
+[33.845s] [ 64%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/float_stamped__type_support.cpp.o[0m
+[33.918s] [ 65%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/string_stamped__type_support.cpp.o[0m
+[34.011s] [ 65%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/camera_recognition_object__type_support.cpp.o[0m
+[34.092s] [ 66%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/camera_recognition_objects__type_support.cpp.o[0m
+[34.177s] [ 67%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/urdf_robot__type_support.cpp.o[0m
+[34.263s] [ 68%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/pen_ink_properties__type_support.cpp.o[0m
+[34.362s] [ 68%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/emitter_send_string__type_support.cpp.o[0m
+[34.455s] [ 69%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/get_bool__type_support.cpp.o[0m
+[34.576s] [ 69%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/emitter_send_string__type_support.cpp.o[0m
+[34.587s] [ 70%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/set_string__type_support.cpp.o[0m
+[34.699s] [ 70%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/spawn_node_from_string__type_support.cpp.o[0m
+[34.789s] [ 71%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/spawn_urdf_robot__type_support.cpp.o[0m
+[34.875s] [ 72%] [32m[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_c.so[0m
+[34.961s] [ 72%] Built target webots_ros2_msgs__rosidl_typesupport_c
+[34.977s] [ 72%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.812s] [ 73%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/get_bool__type_support.cpp.o[0m
+[36.969s] [ 74%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/bool_stamped__type_support.cpp.o[0m
+[37.037s] [ 75%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[37.783s] [ 76%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/float_stamped__type_support.cpp.o[0m
+[38.443s] [ 77%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/spawn_node_from_string__type_support.cpp.o[0m
+[38.530s] [ 77%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/string_stamped__type_support.cpp.o[0m
+[39.186s] [ 78%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.cpp.o[0m
+[39.678s] [ 78%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/spawn_urdf_robot__type_support.cpp.o[0m
+[39.954s] [ 79%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.cpp.o[0m
+[40.872s] [ 79%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/urdf_robot__type_support.cpp.o[0m
+[40.966s] [ 80%] [32m[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[41.177s] [ 80%] Built target webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp
+[41.191s] [ 81%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.cpp.o[0m
+[41.506s] [ 82%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.cpp.o[0m
+[41.828s] [ 83%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/get_bool__type_support.cpp.o[0m
+[42.403s] [ 83%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/set_string__type_support.cpp.o[0m
+[42.681s] [ 84%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.cpp.o[0m
+[43.270s] [ 85%] [32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.cpp.o[0m
+[44.041s] [ 85%] [32m[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[44.205s] [ 85%] Built target webots_ros2_msgs__rosidl_typesupport_introspection_cpp
+[44.232s] [ 85%] Built target webots_ros2_msgs
+[44.262s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[47.946s] [ 86%] Built target webots_ros2_msgs__py
+[47.979s] [ 87%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_float_stamped_s.c.o[0m
+[47.981s] [ 88%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_bool_stamped_s.c.o[0m
+[48.272s] [ 88%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_string_stamped_s.c.o[0m
+[48.283s] [ 89%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_camera_recognition_object_s.c.o[0m
+[48.506s] [ 90%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_camera_recognition_objects_s.c.o[0m
+[48.544s] [ 90%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_urdf_robot_s.c.o[0m
+[48.807s] [ 91%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_pen_ink_properties_s.c.o[0m
+[48.869s] [ 92%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_emitter_send_string_s.c.o[0m
+[49.070s] [ 93%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_get_bool_s.c.o[0m
+[49.164s] [ 93%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_set_string_s.c.o[0m
+[49.381s] [ 94%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_spawn_node_from_string_s.c.o[0m
+[49.460s] [ 95%] [32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_spawn_urdf_robot_s.c.o[0m
+[49.746s] [ 95%] [32m[1mLinking C shared library libwebots_ros2_msgs__rosidl_generator_py.so[0m
+[49.837s] [ 95%] Built target webots_ros2_msgs__rosidl_generator_py
+[49.863s] [ 96%] [32mBuilding C object CMakeFiles/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[49.863s] [ 96%] [32mBuilding C object CMakeFiles/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[50.230s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[50.242s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[50.297s] [ 98%] Built target webots_ros2_msgs_s__rosidl_typesupport_introspection_c
+[50.317s] [ 98%] Built target webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c
+[50.338s] [ 99%] [32mBuilding C object CMakeFiles/webots_ros2_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[50.779s] [100%] [32m[1mLinking C shared module rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.so[0m
+[50.858s] [100%] Built target webots_ros2_msgs_s__rosidl_typesupport_c
+[50.885s] Invoked command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_main_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/ros2_main_ws/build/webots_ros2_msgs -- -j2 -l2
+[51.326s] Invoking command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_main_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/ros2_main_ws/build/webots_ros2_msgs
+[51.338s] -- Install configuration: ""
+[51.338s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/ament_index/resource_index/rosidl_interfaces/webots_ros2_msgs
+[51.340s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/BoolStamped.json
+[51.340s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/FloatStamped.json
+[51.340s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/StringStamped.json
+[51.340s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObject.json
+[51.340s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObjects.json
+[51.340s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/UrdfRobot.json
+[51.341s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/PenInkProperties.json
+[51.341s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString.json
+[51.341s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool.json
+[51.341s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString.json
+[51.341s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString.json
+[51.341s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot.json
+[51.342s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs
+[51.343s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg
+[51.343s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/string_stamped.h
+[51.343s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_object.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/float_stamped.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_generator_c__visibility_control.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/bool_stamped.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_objects.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/pen_ink_properties.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/urdf_robot.h
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail
+[51.344s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__functions.h
+[51.345s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.c
+[51.345s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__functions.c
+[51.345s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.h
+[51.345s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__functions.c
+[51.347s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__struct.h
+[51.347s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__description.c
+[51.347s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__functions.h
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__functions.c
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__functions.h
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__functions.c
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__functions.c
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.h
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__description.c
+[51.348s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__functions.h
+[51.349s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__struct.h
+[51.349s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.c
+[51.349s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__functions.h
+[51.349s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__functions.c
+[51.352s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__description.c
+[51.352s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__description.c
+[51.352s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.h
+[51.352s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__struct.h
+[51.352s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.h
+[51.352s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.h
+[51.353s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.c
+[51.353s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.h
+[51.353s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.c
+[51.353s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.c
+[51.355s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__description.c
+[51.355s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.h
+[51.355s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.h
+[51.356s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__description.c
+[51.356s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__struct.h
+[51.356s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.c
+[51.356s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__struct.h
+[51.356s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.c
+[51.357s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__struct.h
+[51.357s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__struct.h
+[51.357s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__description.c
+[51.359s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__functions.h
+[51.359s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.c
+[51.360s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv
+[51.360s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/set_string.h
+[51.360s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_urdf_robot.h
+[51.360s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_node_from_string.h
+[51.361s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/get_bool.h
+[51.361s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__functions.c
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__functions.h
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.c
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__description.c
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.h
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.h
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.c
+[51.363s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__functions.h
+[51.364s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__description.c
+[51.364s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__functions.c
+[51.364s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__functions.h
+[51.364s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__functions.c
+[51.364s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.c
+[51.366s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__functions.h
+[51.366s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.h
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.h
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__struct.h
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__functions.c
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__functions.c
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.c
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.c
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__description.c
+[51.367s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__description.c
+[51.368s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__description.c
+[51.368s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__struct.h
+[51.368s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__struct.h
+[51.368s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.h
+[51.368s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__struct.h
+[51.371s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__functions.h
+[51.371s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__struct.h
+[51.371s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/emitter_send_string.h
+[51.372s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/library_path.sh
+[51.372s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/library_path.dsv
+[51.372s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_c.so
+[51.373s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_c.so" to ""
+[51.374s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs
+[51.375s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg
+[51.375s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail
+[51.375s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_c.h
+[51.376s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_fastrtps_c.h
+[51.376s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_fastrtps_c.h
+[51.378s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_fastrtps_c.h
+[51.378s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_c.h
+[51.379s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_fastrtps_c.h
+[51.379s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_fastrtps_c.h
+[51.379s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[51.379s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv
+[51.379s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail
+[51.380s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_fastrtps_c.h
+[51.380s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[51.380s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_fastrtps_c.h
+[51.382s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h
+[51.383s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_fastrtps_c.h
+[51.383s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so
+[51.384s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[51.384s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs
+[51.386s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg
+[51.389s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/float_stamped.hpp
+[51.391s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/string_stamped.hpp
+[51.391s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_object.hpp
+[51.391s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/bool_stamped.hpp
+[51.392s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[51.393s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail
+[51.393s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__builder.hpp
+[51.393s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.hpp
+[51.393s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__builder.hpp
+[51.393s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.hpp
+[51.393s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.hpp
+[51.393s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__struct.hpp
+[51.394s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__builder.hpp
+[51.394s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__builder.hpp
+[51.394s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.hpp
+[51.396s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.hpp
+[51.397s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__traits.hpp
+[51.397s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__traits.hpp
+[51.399s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.hpp
+[51.399s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__builder.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__struct.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__traits.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__traits.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__traits.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__struct.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__traits.hpp
+[51.400s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__struct.hpp
+[51.401s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__struct.hpp
+[51.401s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__builder.hpp
+[51.401s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__struct.hpp
+[51.401s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.hpp
+[51.401s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__builder.hpp
+[51.401s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__struct.hpp
+[51.402s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__traits.hpp
+[51.402s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/pen_ink_properties.hpp
+[51.403s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_objects.hpp
+[51.403s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/urdf_robot.hpp
+[51.403s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv
+[51.403s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_node_from_string.hpp
+[51.403s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/set_string.hpp
+[51.404s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_urdf_robot.hpp
+[51.404s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/emitter_send_string.hpp
+[51.404s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/get_bool.hpp
+[51.405s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__traits.hpp
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__traits.hpp
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__builder.hpp
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__builder.hpp
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.hpp
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__traits.hpp
+[51.405s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__struct.hpp
+[51.406s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.hpp
+[51.406s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__traits.hpp
+[51.406s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__struct.hpp
+[51.408s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__builder.hpp
+[51.408s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__struct.hpp
+[51.409s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.hpp
+[51.409s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__struct.hpp
+[51.409s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.hpp
+[51.409s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__struct.hpp
+[51.409s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__builder.hpp
+[51.409s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__builder.hpp
+[51.411s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.hpp
+[51.411s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__traits.hpp
+[51.411s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs
+[51.412s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg
+[51.412s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[51.412s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail
+[51.412s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[51.412s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/dds_fastrtps
+[51.412s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[51.412s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_fastrtps_cpp.hpp
+[51.412s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[51.413s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[51.413s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[51.413s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[51.413s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv
+[51.413s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail
+[51.413s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_fastrtps_cpp.hpp
+[51.415s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/dds_fastrtps
+[51.416s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[51.416s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_fastrtps_cpp.hpp
+[51.416s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[51.416s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[51.416s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[51.416s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[51.416s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs
+[51.417s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[51.417s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_introspection_c.h
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.c
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_introspection_c.h
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.c
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_introspection_c.h
+[51.417s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_introspection_c.h
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.c
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.c
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.c
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.c
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.c
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_introspection_c.h
+[51.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h
+[51.422s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv
+[51.422s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail
+[51.422s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.c
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.c
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.c
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_introspection_c.h
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_introspection_c.h
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.c
+[51.423s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.c
+[51.424s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_introspection_c.h
+[51.424s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so
+[51.424s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[51.424s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_c.so
+[51.424s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_c.so" to ""
+[51.425s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs
+[51.425s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg
+[51.425s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.cpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.cpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_introspection_cpp.hpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.cpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.cpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_introspection_cpp.hpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_introspection_cpp.hpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_introspection_cpp.hpp
+[51.426s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp
+[51.427s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_cpp.hpp
+[51.427s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.cpp
+[51.427s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.cpp
+[51.427s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_introspection_cpp.hpp
+[51.429s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.cpp
+[51.429s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv
+[51.429s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.cpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.cpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.cpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.cpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_introspection_cpp.hpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_introspection_cpp.hpp
+[51.430s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[51.431s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.cpp
+[51.431s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_introspection_cpp.hpp
+[51.431s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so
+[51.431s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[51.431s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_cpp.so
+[51.434s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_cpp.so" to ""
+[51.434s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/pythonpath.sh
+[51.434s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/pythonpath.dsv
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs-2023.1.3-py3.12.egg-info
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs-2023.1.3-py3.12.egg-info/PKG-INFO
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs-2023.1.3-py3.12.egg-info/top_level.txt
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs-2023.1.3-py3.12.egg-info/dependency_links.txt
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs-2023.1.3-py3.12.egg-info/SOURCES.txt
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/__init__.py
+[51.435s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[51.436s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.so
+[51.436s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.so
+[51.436s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[51.436s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg
+[51.436s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_float_stamped.py
+[51.436s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/__init__.py
+[51.438s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_camera_recognition_object_s.c
+[51.438s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_pen_ink_properties_s.c
+[51.438s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_camera_recognition_object.py
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_camera_recognition_objects.py
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_string_stamped.py
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_urdf_robot.py
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_string_stamped_s.c
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_urdf_robot_s.c
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_camera_recognition_objects_s.c
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_pen_ink_properties.py
+[51.439s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_float_stamped_s.c
+[51.440s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_bool_stamped.py
+[51.440s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_bool_stamped_s.c
+[51.440s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv
+[51.440s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_spawn_node_from_string_s.c
+[51.440s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_emitter_send_string_s.c
+[51.442s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/__init__.py
+[51.442s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_spawn_node_from_string.py
+[51.442s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_emitter_send_string.py
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_get_bool.py
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_get_bool_s.c
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_spawn_urdf_robot.py
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_set_string_s.c
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_set_string.py
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_spawn_urdf_robot_s.c
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[51.443s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_c.c
+[51.500s] Listing '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs'...
+[51.500s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/__init__.py'...
+[51.500s] Listing '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg'...
+[51.500s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/__init__.py'...
+[51.500s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_bool_stamped.py'...
+[51.500s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_camera_recognition_object.py'...
+[51.500s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_camera_recognition_objects.py'...
+[51.501s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_float_stamped.py'...
+[51.501s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_pen_ink_properties.py'...
+[51.501s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_string_stamped.py'...
+[51.501s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/msg/_urdf_robot.py'...
+[51.501s] Listing '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv'...
+[51.503s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/__init__.py'...
+[51.504s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_emitter_send_string.py'...
+[51.504s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_get_bool.py'...
+[51.504s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_set_string.py'...
+[51.504s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_spawn_node_from_string.py'...
+[51.504s] Compiling '/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/srv/_spawn_urdf_robot.py'...
+[51.523s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[51.524s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[51.524s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.so
+[51.524s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[51.525s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.so
+[51.525s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.so" to ""
+[51.525s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_py.so
+[51.528s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_py.so" to ""
+[51.528s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/BoolStamped.idl
+[51.528s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/FloatStamped.idl
+[51.528s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/StringStamped.idl
+[51.528s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObject.idl
+[51.529s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObjects.idl
+[51.529s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/UrdfRobot.idl
+[51.531s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/PenInkProperties.idl
+[51.532s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString.idl
+[51.532s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool.idl
+[51.532s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString.idl
+[51.532s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString.idl
+[51.532s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot.idl
+[51.533s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/BoolStamped.msg
+[51.533s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/FloatStamped.msg
+[51.533s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/StringStamped.msg
+[51.533s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObject.msg
+[51.535s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObjects.msg
+[51.536s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/UrdfRobot.msg
+[51.536s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/PenInkProperties.msg
+[51.536s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString.srv
+[51.537s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool.srv
+[51.537s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString.srv
+[51.538s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString.srv
+[51.539s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot.srv
+[51.540s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/ament_index/resource_index/package_run_dependencies/webots_ros2_msgs
+[51.540s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/ament_index/resource_index/parent_prefix_path/webots_ros2_msgs
+[51.540s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/ament_prefix_path.sh
+[51.540s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/ament_prefix_path.dsv
+[51.540s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/path.sh
+[51.540s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/path.dsv
+[51.541s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.bash
+[51.541s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.sh
+[51.541s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.zsh
+[51.541s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.dsv
+[51.542s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/package.dsv
+[51.542s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/ament_index/resource_index/packages/webots_ros2_msgs
+[51.542s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_cExport.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_cExport-noconfig.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_cppExport.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[51.543s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cExport.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cppExport.cmake
+[51.544s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_pyExport.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/rosidl_cmake-extras.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[51.545s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[51.546s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[51.546s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[51.546s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgsConfig.cmake
+[51.546s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgsConfig-version.cmake
+[51.546s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/package.xml
+[51.550s] Invoked command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_main_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/ros2_main_ws/build/webots_ros2_msgs

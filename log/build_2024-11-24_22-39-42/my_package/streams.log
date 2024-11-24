@@ -1,0 +1,22 @@
+[1.912s] Invoking command in '/home/vboxuser/ros2_main_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/ros2_main_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/vboxuser/ros2_main_ws/build/my_package/build install --record /home/vboxuser/ros2_main_ws/build/my_package/install.log --single-version-externally-managed install_data
+[2.507s] running egg_info
+[2.550s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.560s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.560s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.560s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.560s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.708s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.711s] adding license file 'LICENSE'
+[2.712s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.712s] running build
+[2.713s] running build_py
+[2.716s] running install
+[2.740s] running install_lib
+[2.795s] running install_data
+[2.798s] running install_egg_info
+[2.868s] removing '/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)
+[2.869s] Copying ../../build/my_package/my_package.egg-info to /home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[2.873s] running install_scripts
+[3.134s] Installing my_robot_driver script to /home/vboxuser/ros2_main_ws/install/my_package/lib/my_package
+[3.135s] writing list of installed files to '/home/vboxuser/ros2_main_ws/build/my_package/install.log'
+[3.184s] Invoked command in '/home/vboxuser/ros2_main_ws/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/ros2_main_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/vboxuser/ros2_main_ws/build/my_package/build install --record /home/vboxuser/ros2_main_ws/build/my_package/install.log --single-version-externally-managed install_data

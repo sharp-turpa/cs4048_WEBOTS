@@ -1,0 +1,47 @@
+[1.676s] Invoking command in '/home/vboxuser/ros2_main_ws/src/webots_ros2/webots_ros2_turtlebot': AMENT_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_control/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build install --record /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data
+[2.234s] running egg_info
+[2.236s] creating ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info
+[2.272s] writing ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[2.272s] writing dependency_links to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[2.276s] writing entry points to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[2.276s] writing requirements to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[2.276s] writing top-level names to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[2.276s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.352s] reading manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.352s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.352s] running build
+[2.352s] running build_py
+[2.353s] creating /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build
+[2.353s] creating /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build/lib
+[2.353s] creating /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.354s] copying webots_ros2_turtlebot/__init__.py -> /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.359s] copying webots_ros2_turtlebot/plugin_example.py -> /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.359s] running install
+[2.376s] running install_lib
+[2.418s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot
+[2.418s] copying /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/__init__.py -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot
+[2.419s] copying /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/plugin_example.py -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot
+[2.420s] byte-compiling /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot/__init__.py to __init__.cpython-312.pyc
+[2.420s] byte-compiling /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot/plugin_example.py to plugin_example.cpython-312.pyc
+[2.421s] running install_data
+[2.422s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/ament_index
+[2.422s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index
+[2.422s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.423s] copying resource/webots_ros2_turtlebot -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.423s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.423s] copying launch/robot_launch.py -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.424s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.424s] copying resource/turtlebot3_burger_example_map.pgm -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.428s] copying resource/turtlebot3_burger_example_map.yaml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.429s] copying resource/turtlebot_webots.urdf -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.430s] copying resource/ros2control.yml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.430s] copying resource/nav2_params.yaml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.431s] creating /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.431s] copying worlds/turtlebot3_burger_example.wbt -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.432s] copying worlds/.turtlebot3_burger_example.wbproj -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.432s] copying package.xml -> /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot
+[2.433s] running install_egg_info
+[2.481s] Copying ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot-2023.1.3-py3.12.egg-info
+[2.481s] running install_scripts
+[2.753s] writing list of installed files to '/home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/install.log'
+[2.815s] Invoked command in '/home/vboxuser/ros2_main_ws/src/webots_ros2/webots_ros2_turtlebot' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_control/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/build install --record /home/vboxuser/ros2_main_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[01m[K/home/vboxuser/ros2_main_ws/src/webots_ros2/webots_ros2_control/src/Ros2Control.cpp:[m[K In member function ‘[01m[Kvirtual bool webots_ros2_control::WebotsResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[01m[K/home/vboxuser/ros2_main_ws/src/webots_ros2/webots_ros2_control/src/Ros2Control.cpp:51:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kupdate_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   51 | initialize_components(const std::string &urdf, [01;35m[Kunsigned int update_rate[m[K) override {
+      |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+

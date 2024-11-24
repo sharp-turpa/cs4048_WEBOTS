@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_ros2_msgs/srv/SpawnNodeFromString.srv
+// generated code does not contain a copyright notice
+
+
+module webots_ros2_msgs {
+  module srv {
+    struct SpawnNodeFromString_Request {
+      string data;
+    };
+    struct SpawnNodeFromString_Response {
+      boolean success;
+    };
+  };
+};

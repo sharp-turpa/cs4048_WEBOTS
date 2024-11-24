@@ -22,12 +22,12 @@ ros2_ws (my working directory)
       ...
 
 ```
-**mypackage** All code work should be done here.
-**webots_ros2** Includes all API components for ros2 and WEBOTS.
-**worlds** The map's build file, which can be edited in webots. Tutorial address: https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment
-**my_robot_driver.py** Main script for controlling the robot
-**my_robot.urdf** urdf file for passing parameters to scripts
-**robot_launch.py** Used to start the ROS node and also tell the script which bot to connect to in the worlds file
+1. **mypackage** All code work should be done here.
+2. **webots_ros2** Includes all API components for ros2 and WEBOTS.
+3. **worlds** The map's build file, which can be edited in webots. Tutorial address: https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment
+4. **my_robot_driver.py** Main script for controlling the robot
+5. **my_robot.urdf** urdf file for passing parameters to scripts
+6. **robot_launch.py** Used to start the ROS node and also tell the script which bot to connect to in the worlds file
 
 ## How to run
 1. Create a working directory, for example mine is ros_ws.

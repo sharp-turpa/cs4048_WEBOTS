@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from webots_ros2_msgs/msg/UrdfRobot.msg
+// generated code does not contain a copyright notice
+
+
+module webots_ros2_msgs {
+  module msg {
+    struct UrdfRobot {
+      string name;
+
+      string urdf_path;
+
+      string robot_description;
+
+      string relative_path_prefix;
+
+      string translation;
+
+      string rotation;
+
+      boolean normal;
+
+      boolean box_collision;
+
+      string init_pos;
+    };
+  };
+};

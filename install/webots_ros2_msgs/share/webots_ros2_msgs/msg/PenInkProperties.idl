@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from webots_ros2_msgs/msg/PenInkProperties.msg
+// generated code does not contain a copyright notice
+
+
+module webots_ros2_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Set the ink properties of a pen device." "\n"
+      "See https://www.cyberbotics.com/doc/reference/pen#wb_pen_set_ink_color for more details")
+    struct PenInkProperties {
+      @verbatim (language="comment", text=
+        "Ink color in hexadecimal format")
+      int32 color;
+
+      @verbatim (language="comment", text=
+        "Ink density (similar in context to alpha of rgba)")
+      float density;
+    };
+  };
+};

@@ -11,10 +11,10 @@ class ObstacleAvoider(Node):
     def __init__(self):
         super().__init__('obstacle_avoider')
 
-        self.__publisher = self.create_publisher(Twist, 'cmd_vel', 1)
+        self.__publisher = self.create_publisher(Twist, 'cmd_vel1', 1)
 
-        self.create_subscription(Range, 'left_sensor', self.__left_sensor_callback, 1)
-        self.create_subscription(Range, 'right_sensor', self.__right_sensor_callback, 1)
+        self.create_subscription(Range, 'left_sensor1', self.__left_sensor_callback, 1)
+        self.create_subscription(Range, 'right_sensor1', self.__right_sensor_callback, 1)
 
     def __left_sensor_callback(self, message):
         self.__left_sensor_value = message.range

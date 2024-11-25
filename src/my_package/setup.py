@@ -26,7 +26,8 @@ setup(
             'my_robot_driver = my_package.my_robot_driver:main',
             'obstacle_avoider = my_package.obstacle_avoider:main',
             'my_robot_driver2 = my_package.my_robot_driver2:main',
-            'obstacle_avoider2 = my_package.obstacle_avoider2:main'
+            'obstacle_avoider2 = my_package.obstacle_avoider2:main',
+            'touch_sensor = my_package.touch_sensor:main',
         ],
     },
 )

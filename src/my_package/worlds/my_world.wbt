@@ -137,6 +137,28 @@ Robot {
       numberOfRays 2
       aperture 1
     }
+    TouchSensor {
+      translation 0.042 0 0.03
+      children [
+        DEF SENSOR_SHAPE Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.8 0.8
+            transparency 0.5
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.25 0.1 0.01
+          }
+        }
+      ]
+      name "touch"
+      boundingObject USE SENSOR_SHAPE
+      physics Physics {
+      }
+      type "force-3d"
+      lookupTable []
+    }
   ]
   boundingObject Transform {
     translation 0 0 0.0415

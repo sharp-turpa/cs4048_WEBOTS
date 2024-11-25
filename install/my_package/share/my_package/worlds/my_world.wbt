@@ -246,7 +246,7 @@ Robot {
           ]
         }
       ]
-      name "ds0"
+      name "ds2"
       lookupTable [
         0 1020 0
         0.05 1020 0
@@ -261,7 +261,7 @@ Robot {
       children [
         USE SENSOR2
       ]
-      name "ds1"
+      name "ds3"
       lookupTable [
         0 1020 0
         0.05 1020 0

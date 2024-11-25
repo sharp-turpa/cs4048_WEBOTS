@@ -15,22 +15,48 @@ def generate_launch_description():
         world=os.path.join(package_dir, 'worlds', 'my_world.wbt')
     )
 
-    my_robot_driver = WebotsController(
+    robot1_driver = WebotsController(
         robot_name='my_robot',
+        namespace='robot1',
         parameters=[
             {'robot_description': robot_description_path},
+            {'namespace': 'robot1'},
         ]
     )
 
-    obstacle_avoider = Node(
+    robot1_obstacle_avoider = Node(
         package='my_package',
         executable='obstacle_avoider',
+        namespace='robot1',
+        name='obstacle_avoider',
+        output='screen',
+        parameters=[{'namespace': 'robot1'}],
+    )
+
+    robot2_driver = WebotsController(
+        robot_name='my_robot_2',
+        namespace='robot2',
+        parameters=[
+            {'robot_description': robot_description_path},
+            {'namespace': 'robot2'},
+        ]
+    )
+
+    robot2_obstacle_avoider = Node(
+        package='my_package',
+        executable='obstacle_avoider',
+        namespace='robot2',
+        name='obstacle_avoider',
+        output='screen',
+        parameters=[{'namespace': 'robot2'}],
     )
 
     return LaunchDescription([
         webots,
-        my_robot_driver,
-        obstacle_avoider,
+        robot1_driver,
+        robot1_obstacle_avoider,
+        robot2_driver,
+        robot2_obstacle_avoider,
         launch.actions.RegisterEventHandler(
             event_handler=launch.event_handlers.OnProcessExit(
                 target_action=webots,

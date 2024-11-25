@@ -8,13 +8,24 @@ MAX_RANGE = 0.15
 
 
 class ObstacleAvoider(Node):
-    def __init__(self):
-        super().__init__('obstacle_avoider')
+    def __init__(self, namespace=''):
+        super().__init__(f'{namespace}_obstacle_avoider' if namespace else 'obstacle_avoider')
 
-        self.__publisher = self.create_publisher(Twist, 'cmd_vel', 1)
+        self.__namespace = namespace.strip('/')
+        left_sensor_topic = f'/{self.__namespace}/left_sensor' if self.__namespace else 'left_sensor'
+        right_sensor_topic = f'/{self.__namespace}/right_sensor' if self.__namespace else 'right_sensor'
+        cmd_vel_topic = f'/{self.__namespace}/cmd_vel' if self.__namespace else 'cmd_vel'
 
-        self.create_subscription(Range, 'left_sensor', self.__left_sensor_callback, 1)
-        self.create_subscription(Range, 'right_sensor', self.__right_sensor_callback, 1)
+        self.__publisher = self.create_publisher(Twist, cmd_vel_topic, 1)
+
+        self.create_subscription(Range, left_sensor_topic, self.__left_sensor_callback, 1)
+        self.create_subscription(Range, right_sensor_topic, self.__right_sensor_callback, 1)
+
+        self.__left_sensor_value = MAX_RANGE
+        self.__right_sensor_value = MAX_RANGE
+
+        self.get_logger().info(f'Subscribing to {left_sensor_topic} and {right_sensor_topic}')
+        self.get_logger().info(f'Publishing to {cmd_vel_topic}')
 
     def __left_sensor_callback(self, message):
         self.__left_sensor_value = message.range
@@ -34,7 +45,11 @@ class ObstacleAvoider(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    avoider = ObstacleAvoider()
+    namespace = ''
+    if args and len(args) > 1:
+        namespace = args[1]
+
+    avoider = ObstacleAvoider(namespace=namespace)
     rclpy.spin(avoider)
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
@@ -44,4 +59,5 @@ def main(args=None):
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    main(sys.argv)

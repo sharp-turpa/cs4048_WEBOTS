@@ -1,0 +1,275 @@
+[0.024s] Invoking command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_control/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vboxuser/ros2_main_ws/build/webots_ros2_driver -- -j2 -l2
+[0.123s] [  0%] Built target ament_cmake_python_copy_controller
+[0.177s] [  0%] Built target ament_cmake_python_copy_vehicle
+[0.243s] [  0%] Built target ament_cmake_python_copy_webots_ros2_driver
+[0.705s] running egg_info
+[0.747s] writing controller.egg-info/PKG-INFO
+[0.748s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.749s] writing top-level names to controller.egg-info/top_level.txt
+[0.769s] [  0%] Built target compile-lib-controller
+[0.900s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.902s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.952s] [  0%] Built target ament_cmake_python_build_controller_egg
+[1.203s] running egg_info
+[1.244s] writing vehicle.egg-info/PKG-INFO
+[1.247s] writing dependency_links to vehicle.egg-info/dependency_links.txt
+[1.247s] writing top-level names to vehicle.egg-info/top_level.txt
+[1.385s] reading manifest file 'vehicle.egg-info/SOURCES.txt'
+[1.385s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[1.436s] running egg_info
+[1.438s] [  0%] Built target ament_cmake_python_build_vehicle_egg
+[1.495s] writing webots_ros2_driver.egg-info/PKG-INFO
+[1.497s] writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt
+[1.499s] writing top-level names to webots_ros2_driver.egg-info/top_level.txt
+[1.625s] reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[1.626s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[1.691s] [  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg
+[1.765s] [  0%] Built target compile-generic-window
+[1.936s] [  0%] Built target compile-lib-vehicle
+[1.977s] [ 14%] Built target webots_ros2_driver_imu
+[2.033s] [ 29%] Built target webots_ros2_driver_rgbd
+[2.039s] [100%] Built target driver
+[2.061s] Invoked command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_control/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vboxuser/ros2_main_ws/build/webots_ros2_driver -- -j2 -l2
+[2.189s] Invoking command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_control/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/vboxuser/ros2_main_ws/build/webots_ros2_driver
+[2.204s] -- Install configuration: ""
+[2.204s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.sh
+[2.204s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.dsv
+[2.204s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2023.1.3-py3.12.egg-info
+[2.204s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2023.1.3-py3.12.egg-info/PKG-INFO
+[2.204s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2023.1.3-py3.12.egg-info/top_level.txt
+[2.204s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2023.1.3-py3.12.egg-info/dependency_links.txt
+[2.205s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2023.1.3-py3.12.egg-info/SOURCES.txt
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/device.py
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/radar.py
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/field.py
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/touch_sensor.py
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/motion.py
+[2.205s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/position_sensor.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/inertial_unit.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/__init__.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/joystick.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/emitter.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/pen.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/mouse.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/display.py
+[2.210s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/skin.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/gyro.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/speaker.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/distance_sensor.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/node.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/lidar_point.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/sensor.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/brake.py
+[2.211s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/compass.py
+[2.216s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/range_finder.py
+[2.216s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/supervisor.py
+[2.216s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/gps.py
+[2.216s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/led.py
+[2.216s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/keyboard.py
+[2.216s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/ansi_codes.py
+[2.217s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/vacuum_gripper.py
+[2.217s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/motor.py
+[2.217s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/lidar.py
+[2.217s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/receiver.py
+[2.217s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/radar_target.py
+[2.221s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/light_sensor.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/accelerometer.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/altimeter.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/camera.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/connector.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/wb.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/robot.py
+[2.222s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/constants.py
+[2.281s] Listing '/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller'...
+[2.296s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2023.1.3-py3.12.egg-info
+[2.296s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2023.1.3-py3.12.egg-info/PKG-INFO
+[2.296s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2023.1.3-py3.12.egg-info/top_level.txt
+[2.296s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2023.1.3-py3.12.egg-info/dependency_links.txt
+[2.296s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2023.1.3-py3.12.egg-info/SOURCES.txt
+[2.297s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle
+[2.297s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle/car.py
+[2.297s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle/__init__.py
+[2.297s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle/driver.py
+[2.403s] Listing '/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle'...
+[2.414s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2023.1.3-py3.12.egg-info
+[2.414s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2023.1.3-py3.12.egg-info/PKG-INFO
+[2.414s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2023.1.3-py3.12.egg-info/top_level.txt
+[2.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2023.1.3-py3.12.egg-info/dependency_links.txt
+[2.418s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2023.1.3-py3.12.egg-info/SOURCES.txt
+[2.418s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver
+[2.418s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/webots_controller.py
+[2.418s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/wait_for_controller_connection.py
+[2.418s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/__init__.py
+[2.419s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/ros2_supervisor.py
+[2.419s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/utils.py
+[2.419s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/webots_launcher.py
+[2.419s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/urdf_spawner.py
+[2.541s] Listing '/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver'...
+[2.551s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include
+[2.552s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver
+[2.553s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp
+[2.553s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils
+[2.553s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Utils.hpp
+[2.553s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp
+[2.554s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp
+[2.554s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/PythonPlugin.hpp
+[2.554s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins
+[2.554s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[2.559s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic
+[2.559s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2RGBD.hpp
+[2.559s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[2.560s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static
+[2.560s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Compass.hpp
+[2.560s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[2.560s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2VacuumGripper.hpp
+[2.560s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Emitter.hpp
+[2.560s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[2.567s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[2.567s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Pen.hpp
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Receiver.hpp
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so
+[2.568s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_rgbd.so
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/gps.h
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/mouse_state.h
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/distance_sensor.h
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/radio.h
+[2.575s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/led.h
+[2.577s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/joystick.h
+[2.577s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle
+[2.577s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/driver.h
+[2.585s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/car.h
+[2.585s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/connector.h
+[2.586s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/remote_control.h
+[2.586s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/lidar_point.h
+[2.586s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/keyboard.h
+[2.586s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/receiver.h
+[2.587s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/radar.h
+[2.588s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/speaker.h
+[2.588s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/emitter.h
+[2.588s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/range_finder.h
+[2.591s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/pen.h
+[2.591s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/mouse.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/camera_recognition_object.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/supervisor.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/position_sensor.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/altimeter.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/console.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/utils
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/utils/system.h
+[2.592s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/utils/string.h
+[2.597s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/utils/ansi_codes.h
+[2.597s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/utils/motion.h
+[2.597s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/inertial_unit.h
+[2.604s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/touch_sensor.h
+[2.604s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/robot.h
+[2.604s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/contact_point.h
+[2.604s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/nodes.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/lidar.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/vacuum_gripper.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/types.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/device.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/gyro.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/light_sensor.h
+[2.605s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/motor.h
+[2.612s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/accelerometer.h
+[2.612s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/skin.h
+[2.612s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/radar_target.h
+[2.612s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/compass.h
+[2.612s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/display.h
+[2.612s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_wwi.h
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window/generic.h
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/default.h
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_window.h
+[2.613s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/camera.h
+[2.622s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/brake.h
+[2.622s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/c/webots/microphone.h
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Robot.hpp
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/LED.hpp
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Driver.hpp
+[2.623s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Car.hpp
+[2.627s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Motor.hpp
+[2.627s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Field.hpp
+[2.627s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Compass.hpp
+[2.630s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/PositionSensor.hpp
+[2.630s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Gyro.hpp
+[2.630s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Radar.hpp
+[2.630s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/LightSensor.hpp
+[2.630s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Emitter.hpp
+[2.630s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/VacuumGripper.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Pen.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Node.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Device.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Camera.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Joystick.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Brake.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Mouse.hpp
+[2.631s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/TouchSensor.hpp
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Receiver.hpp
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/GPS.hpp
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/ImageRef.hpp
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Lidar.hpp
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/Motion.hpp
+[2.642s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/AnsiCodes.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Display.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Keyboard.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Skin.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/RangeFinder.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Supervisor.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/DistanceSensor.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/InertialUnit.hpp
+[2.643s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Speaker.hpp
+[2.644s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Connector.hpp
+[2.644s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Accelerometer.hpp
+[2.655s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/include/webots/cpp/webots/Altimeter.hpp
+[2.655s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller
+[2.655s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libCppCar.so
+[2.655s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libgeneric_robot_window.so
+[2.655s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libController.so
+[2.656s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libdriver.so
+[2.656s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libCppDriver.so
+[2.656s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[2.656s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/.gitignore
+[2.656s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/controller/libcar.so
+[2.656s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/webots_ros2_imu.xml
+[2.670s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/webots_ros2_rgbd.xml
+[2.682s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py
+[2.682s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts
+[2.682s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots_tcp_client.py
+[2.682s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller
+[2.682s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.sh
+[2.682s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.dsv
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/ament_index/resource_index/package_run_dependencies/webots_ros2_driver
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/ament_index/resource_index/parent_prefix_path/webots_ros2_driver
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.sh
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.dsv
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.sh
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.dsv
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.bash
+[2.683s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.sh
+[2.688s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.zsh
+[2.688s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.dsv
+[2.689s] -- Installing: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.dsv
+[2.689s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/ament_index/resource_index/packages/webots_ros2_driver
+[2.689s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_driver
+[2.689s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.689s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.717s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[2.718s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig.cmake
+[2.718s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig-version.cmake
+[2.718s] -- Up-to-date: /home/vboxuser/ros2_main_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.xml
+[2.718s] Invoked command in '/home/vboxuser/ros2_main_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs:/home/vboxuser/ros2_main_ws/install/webots_ros2_control:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vboxuser/ros2_main_ws/install/webots_ros2:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck:/home/vboxuser/ros2_main_ws/install/my_package:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_control/lib:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vboxuser/ros2_main_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_importer/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_universal_robot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tiago/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tests/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_tesla/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_mavic/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_epuck/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/my_package/lib/python3.12/site-packages:/home/vboxuser/ros2_main_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/vboxuser/ros2_main_ws/build/webots_ros2_driver

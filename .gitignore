@@ -51,4 +51,5 @@ qtcreator-*
 CATKIN_IGNORE
 
 /log
+/install
 .gitignore

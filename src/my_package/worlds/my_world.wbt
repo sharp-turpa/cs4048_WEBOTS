@@ -156,7 +156,7 @@ Robot {
       boundingObject USE SENSOR_SHAPE
       physics Physics {
       }
-      type "force-3d"
+      type "bumper"
       lookupTable []
     }
   ]

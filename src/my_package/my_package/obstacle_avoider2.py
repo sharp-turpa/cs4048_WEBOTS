@@ -7,14 +7,14 @@ from geometry_msgs.msg import Twist
 MAX_RANGE = 0.15
 
 
-class ObstacleAvoider(Node):
+class ObstacleAvoider2(Node):
     def __init__(self):
-        super().__init__('obstacle_avoider')
+        super().__init__('obstacle_avoider2')
 
-        self.__publisher = self.create_publisher(Twist, 'cmd_vel1', 1)
+        self.__publisher = self.create_publisher(Twist, 'cmd_vel2', 1)
 
-        self.create_subscription(Range, 'left_sensor1', self.__left_sensor_callback, 1)
-        self.create_subscription(Range, 'right_sensor1', self.__right_sensor_callback, 1)
+        self.create_subscription(Range, 'left_sensor2', self.__left_sensor_callback, 1)
+        self.create_subscription(Range, 'right_sensor2', self.__right_sensor_callback, 1)
 
     def __left_sensor_callback(self, message):
         self.__left_sensor_value = message.range
@@ -34,7 +34,7 @@ class ObstacleAvoider(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    avoider = ObstacleAvoider()
+    avoider = ObstacleAvoider2()
     rclpy.spin(avoider)
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically

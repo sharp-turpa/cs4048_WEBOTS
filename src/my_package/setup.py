@@ -6,6 +6,7 @@ data_files.append(('share/ament_index/resource_index/packages', ['resource/' + p
 data_files.append(('share/' + package_name + '/launch', ['launch/robot_launch.py']))
 data_files.append(('share/' + package_name + '/worlds', ['worlds/my_world.wbt']))
 data_files.append(('share/' + package_name + '/resource', ['resource/my_robot.urdf']))
+data_files.append(('share/' + package_name + '/resource', ['resource/my_robot_2.urdf']))
 data_files.append(('share/' + package_name, ['package.xml']))
 
 setup(
@@ -23,7 +24,10 @@ setup(
     entry_points={
         'console_scripts': [
             'my_robot_driver = my_package.my_robot_driver:main',
-            'obstacle_avoider = my_package.obstacle_avoider:main'
+            'obstacle_avoider = my_package.obstacle_avoider:main',
+            'my_robot_driver2 = my_package.my_robot_driver2:main',
+            'obstacle_avoider2 = my_package.obstacle_avoider2:main',
+            'touch_sensor = my_package.touch_sensor:main',
         ],
     },
 )

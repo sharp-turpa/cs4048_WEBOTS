@@ -3,13 +3,19 @@
     <webots>
         <device reference="ds0" type="DistanceSensor">
             <ros>
-                <topicName>/left_sensor</topicName>
+                <topicName>/left_sensor1</topicName>
                 <alwaysOn>true</alwaysOn>
             </ros>
         </device>
         <device reference="ds1" type="DistanceSensor">
             <ros>
-                <topicName>/right_sensor</topicName>
+                <topicName>/right_sensor1</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        <device reference="touch_sensor" type="TouchSensor">
+            <ros>
+                <topicName>/touch_sensor</topicName>
                 <alwaysOn>true</alwaysOn>
             </ros>
         </device>

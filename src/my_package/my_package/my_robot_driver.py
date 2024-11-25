@@ -9,6 +9,8 @@ class MyRobotDriver:
         self.__robot = webots_node.robot
 
         self.__namespace = properties.get('namespace', '').strip('/')
+        print(f"DEBUG: {properties}")
+        print(f"DEBUG: {self.__namespace}")
 
         self.__left_motor = self.__robot.getDevice('left wheel motor')
         self.__right_motor = self.__robot.getDevice('right wheel motor')
@@ -22,13 +24,20 @@ class MyRobotDriver:
         self.__target_twist = Twist()
 
         rclpy.init(args=None)
+
+        self.__node = rclpy.create_node('robot_driver')
+        namespace_param = self.__node.declare_parameter('namespace', '')
+        self.__namespace = namespace_param.get_parameter_value().string_value.strip('/')
+
         node_name = f'{self.__namespace}_driver' if self.__namespace else 'my_robot_driver'
+        self.__node.destroy_node()
         self.__node = rclpy.create_node(node_name)
 
-        cmd_vel_topic = f'{self.__namespace}/cmd_vel' if self.__namespace else 'cmd_vel'
+        cmd_vel_topic = f'/{self.__namespace}/cmd_vel' if self.__namespace else 'cmd_vel'
         self.__node.create_subscription(Twist, cmd_vel_topic, self.__cmd_vel_callback, 1)
 
         self.__node.get_logger().info(f'Subscribed to {cmd_vel_topic}')
+        self.__node.get_logger().info(f'PROPERTIES: {properties}')
 
     def __cmd_vel_callback(self, twist):
         self.__target_twist = twist

@@ -19,7 +19,6 @@ def generate_launch_description():
         robot_name='my_robot',
         namespace='robot1',
         parameters=[
-            {'robot_description': robot_description_path},
             {'namespace': 'robot1'},
         ]
     )
@@ -37,7 +36,6 @@ def generate_launch_description():
         robot_name='my_robot_2',
         namespace='robot2',
         parameters=[
-            {'robot_description': robot_description_path},
             {'namespace': 'robot2'},
         ]
     )

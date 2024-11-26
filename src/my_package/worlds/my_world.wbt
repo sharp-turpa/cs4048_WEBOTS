@@ -292,6 +292,10 @@ Robot {
       numberOfRays 2
       aperture 1
     }
+    GPS {
+      name "gps"
+      translation 0 0 0.05
+    }
   ]
   boundingObject Transform {
     translation 0 0 0.0415

@@ -31,7 +31,9 @@ class MyRobotDriver:
 
 
         self.__gps_publisher = self.__node.create_publisher(Point, '/robot1/gps0', 10)
-        self.__timer = self.__node.create_timer(3.0, self.publish_gps)
+        self.__timer = self.__node.create_timer(1.0, self.publish_gps)
+
+        self.__touch_publisher = self.__node.create_publisher(Point, '/robot1/collision', 10)
 
     def __cmd_vel_callback(self, twist):
         self.__target_twist = twist
@@ -43,7 +45,7 @@ class MyRobotDriver:
         msg.y = position[1]
         msg.z = position[2]
         self.__gps_publisher.publish(msg)
-        self.__node.get_logger().info(f'Published GPS Position: {msg}')
+        #self.__node.get_logger().info(f'Published ROBOT1 GPS Position: {msg}')
 
     def step(self):
         rclpy.spin_once(self.__node, timeout_sec=0)
@@ -51,7 +53,13 @@ class MyRobotDriver:
         touch_value = float(self.__touch_sensor.getValue())
 
         if touch_value > 0.0:  
-            self.__node.get_logger().info('Bump Detected')
+            #self.__node.get_logger().info('Bump Detected')
+            position = self.__gps.getValues()  
+            msg = Point()
+            msg.x = position[0]
+            msg.y = position[1]
+            msg.z = position[2]
+            self.__touch_publisher.publish(msg)
 
         forward_speed = self.__target_twist.linear.x
         angular_speed = self.__target_twist.angular.z

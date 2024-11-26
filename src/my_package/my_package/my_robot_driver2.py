@@ -27,10 +27,18 @@ class MyRobotDriver2:
         self.__node.create_subscription(Twist, 'cmd_vel2', self.__cmd_vel_callback, 1)
 
         self.__gps_publisher = self.__node.create_publisher(Point, '/robot2/gps1', 10)
-        self.__timer = self.__node.create_timer(3.0, self.publish_gps)
+        self.__timer = self.__node.create_timer(1.0, self.publish_gps)
+
+        self.__node.create_subscription(Point, '/robot1/collision', self.__collision_callback, 10)
+
 
     def __cmd_vel_callback(self, twist):
         self.__target_twist = twist
+
+
+    def __collision_callback(self, point):
+        self.__node.get_logger().info(f'RECEIVED GPS: {point}')
+
 
     def publish_gps(self):
         position = self.__gps.getValues()  
@@ -39,7 +47,7 @@ class MyRobotDriver2:
         msg.y = position[1]
         msg.z = position[2]
         self.__gps_publisher.publish(msg)
-        self.__node.get_logger().info(f'Published GPS Position: {msg}')
+        #self.__node.get_logger().info(f'Published ROBOT2 GPS Position: {msg}')
 
     def step(self):
         rclpy.spin_once(self.__node, timeout_sec=0)

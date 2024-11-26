@@ -13,12 +13,6 @@
                 <alwaysOn>true</alwaysOn>
             </ros>
         </device>
-        <device reference="touch_sensor" type="TouchSensor">
-            <ros>
-                <topicName>/touch_sensor</topicName>
-                <alwaysOn>true</alwaysOn>
-            </ros>
-        </device>
         <plugin type="my_package.my_robot_driver.MyRobotDriver" />
     </webots>
 </robot>

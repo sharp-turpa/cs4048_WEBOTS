@@ -303,4 +303,5 @@ Robot {
   }
   controller "<extern>"
   name "my_robot_2"
+ 
 }

@@ -159,6 +159,10 @@ Robot {
       type "bumper"
       lookupTable []
     }
+    GPS {
+      name "gps0"
+      translation 0 0 0.05
+    }
   ]
   boundingObject Transform {
     translation 0 0 0.0415
@@ -293,7 +297,7 @@ Robot {
       aperture 1
     }
     GPS {
-      name "gps"
+      name "gps1"
       translation 0 0 0.05
     }
   ]

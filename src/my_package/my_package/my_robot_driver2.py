@@ -17,7 +17,7 @@ class MyRobotDriver2:
         self.__right_motor.setPosition(float('inf'))
         self.__right_motor.setVelocity(0)
 
-        self.__gps = self.__robot.getDevice('gps')
+        self.__gps = self.__robot.getDevice('gps1')
         self.__gps.enable(int(self.__robot.getBasicTimeStep()))
 
         self.__target_twist = Twist()
@@ -26,7 +26,7 @@ class MyRobotDriver2:
         self.__node = rclpy.create_node('my_robot_driver2')
         self.__node.create_subscription(Twist, 'cmd_vel2', self.__cmd_vel_callback, 1)
 
-        self.__gps_publisher = self.__node.create_publisher(Point, '/robot2/gps', 10)
+        self.__gps_publisher = self.__node.create_publisher(Point, '/robot2/gps1', 10)
         self.__timer = self.__node.create_timer(3.0, self.publish_gps)
 
     def __cmd_vel_callback(self, twist):

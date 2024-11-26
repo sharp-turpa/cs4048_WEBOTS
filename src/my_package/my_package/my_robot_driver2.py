@@ -1,5 +1,6 @@
 import rclpy
 from geometry_msgs.msg import Twist, Point
+import time
 
 HALF_DISTANCE_BETWEEN_WHEELS = 0.045
 WHEEL_RADIUS = 0.025
@@ -21,6 +22,8 @@ class MyRobotDriver2:
         self.__gps.enable(int(self.__robot.getBasicTimeStep()))
 
         self.__target_twist = Twist()
+        self.__paused = False
+        self.__resume_time = None
 
         rclpy.init(args=None)
         self.__node = rclpy.create_node('my_robot_driver2')
@@ -33,11 +36,18 @@ class MyRobotDriver2:
 
 
     def __cmd_vel_callback(self, twist):
-        self.__target_twist = twist
+        if not self.__paused:
+            self.__target_twist = twist
 
 
     def __collision_callback(self, point):
         self.__node.get_logger().info(f'RECEIVED GPS: {point}')
+        self.__paused = True
+        self.__resume_time = self.__node.get_clock().now() + rclpy.time.Duration(seconds=5)
+
+        spin_speed = 0.25  # Adjust as needed for desired spin speed
+        self.__left_motor.setVelocity(-spin_speed / WHEEL_RADIUS)
+        self.__right_motor.setVelocity(spin_speed / WHEEL_RADIUS)
 
 
     def publish_gps(self):
@@ -52,14 +62,21 @@ class MyRobotDriver2:
     def step(self):
         rclpy.spin_once(self.__node, timeout_sec=0)
 
-        forward_speed = self.__target_twist.linear.x
-        angular_speed = self.__target_twist.angular.z
+        if self.__paused:
+            if self.__node.get_clock().now() >= self.__resume_time:
+                self.__paused = False
+                self.__node.get_logger().info('Resuming normal operations.')
 
-        command_motor_left = (forward_speed - angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
-        command_motor_right = (forward_speed + angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
 
-        self.__left_motor.setVelocity(command_motor_left)
-        self.__right_motor.setVelocity(command_motor_right)
+        if not self.__paused:
+            forward_speed = self.__target_twist.linear.x
+            angular_speed = self.__target_twist.angular.z
+
+            command_motor_left = (forward_speed - angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
+            command_motor_right = (forward_speed + angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
+
+            self.__left_motor.setVelocity(command_motor_left)
+            self.__right_motor.setVelocity(command_motor_right)
 
 def main():
     rclpy.init()

@@ -33,7 +33,6 @@ def generate_launch_description():
         ]
     )
 
-
     obstacle_avoider = Node(
         package='my_package',
         executable='obstacle_avoider',
@@ -44,10 +43,6 @@ def generate_launch_description():
         executable='obstacle_avoider2',
     )
 
-    touch_sensor = Node(
-        package='my_package',
-        executable='touch_sensor',
-    )
 
     return LaunchDescription([
         webots,
@@ -55,7 +50,6 @@ def generate_launch_description():
         second_robot_driver,
         obstacle_avoider,
         obstacle_avoider2,
-        touch_sensor,
         launch.actions.RegisterEventHandler(
             event_handler=launch.event_handlers.OnProcessExit(
                 target_action=webots,

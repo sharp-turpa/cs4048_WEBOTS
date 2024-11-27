@@ -1,5 +1,6 @@
 import rclpy
 from geometry_msgs.msg import Twist, Point
+import math
 
 HALF_DISTANCE_BETWEEN_WHEELS = 0.045
 WHEEL_RADIUS = 0.025
@@ -24,6 +25,8 @@ class MyRobotDriver:
         self.__gps.enable(int(self.__robot.getBasicTimeStep()))
 
         self.__target_twist = Twist()
+        self.__paused = False
+        self.__resume_time = None
 
         rclpy.init(args=None)
         self.__node = rclpy.create_node('my_robot_driver')
@@ -34,10 +37,43 @@ class MyRobotDriver:
         self.__timer = self.__node.create_timer(1.0, self.publish_gps)
 
         self.__touch_publisher = self.__node.create_publisher(Point, '/robot1/collision', 10)
+        self.__node.create_subscription(Point, '/robot2/collision', self.__collision_callback, 10)
+
 
     def __cmd_vel_callback(self, twist):
-        self.__target_twist = twist
+        if not self.__paused:
+            self.__target_twist = twist
 
+    
+    def __calculate_distance(self, point1, point2):
+        dx = point2.x - point1.x
+        dy = point2.y - point1.y
+        dz = point2.z - point1.z
+        return math.sqrt(dx**2 + dy**2 + dz**2)
+
+    
+    def __collision_callback(self, point):
+        self.__node.get_logger().info(f'RECEIVED ROBOT2 GPS: {point}')
+        self.__node.get_logger().info(f'DISTANCE2: {self.__calculate_distance(self.__get_pos(), point)}')
+        
+        if self.__calculate_distance(self.__get_pos(), point) < 0.15:
+            self.__paused = True
+            self.__resume_time = self.__node.get_clock().now() + rclpy.time.Duration(seconds=5)
+
+            spin_speed = 0.25  # Adjust as needed for desired spin speed max 0.25
+            self.__left_motor.setVelocity(-spin_speed / WHEEL_RADIUS)
+            self.__right_motor.setVelocity(spin_speed / WHEEL_RADIUS)
+    
+
+    def __get_pos(self):
+        position = self.__gps.getValues()  
+        msg = Point()
+        msg.x = position[0]
+        msg.y = position[1]
+        msg.z = position[2]
+        return msg
+
+    
     def publish_gps(self):
         position = self.__gps.getValues()  
         msg = Point()
@@ -52,7 +88,7 @@ class MyRobotDriver:
 
         touch_value = float(self.__touch_sensor.getValue())
 
-        if touch_value > 0.0:  
+        if touch_value > 0.0 and not self.__paused:  
             #self.__node.get_logger().info('Bump Detected')
             position = self.__gps.getValues()  
             msg = Point()
@@ -61,14 +97,20 @@ class MyRobotDriver:
             msg.z = position[2]
             self.__touch_publisher.publish(msg)
 
-        forward_speed = self.__target_twist.linear.x
-        angular_speed = self.__target_twist.angular.z
+        if self.__paused:
+            if self.__node.get_clock().now() >= self.__resume_time:
+                self.__paused = False
+                self.__node.get_logger().info('Resuming normal operations.')
 
-        command_motor_left = (forward_speed - angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
-        command_motor_right = (forward_speed + angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
+        if not self.__paused:
+            forward_speed = self.__target_twist.linear.x
+            angular_speed = self.__target_twist.angular.z
 
-        self.__left_motor.setVelocity(command_motor_left)
-        self.__right_motor.setVelocity(command_motor_right)
+            command_motor_left = (forward_speed - angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
+            command_motor_right = (forward_speed + angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) / WHEEL_RADIUS
+
+            self.__left_motor.setVelocity(command_motor_left)
+            self.__right_motor.setVelocity(command_motor_right)
 
 def main():
     rclpy.init()

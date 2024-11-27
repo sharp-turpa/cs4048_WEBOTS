@@ -148,7 +148,7 @@ Robot {
             metalness 0
           }
           geometry Box {
-            size 0.25 0.1 0.01
+            size 0.07 0.05 0.01
           }
         }
       ]
@@ -295,6 +295,28 @@ Robot {
       ]
       numberOfRays 2
       aperture 1
+    }
+    TouchSensor {
+      translation 0.042 0 0.03
+      children [
+        DEF SENSOR_SHAPE2 Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.8 0.8
+            transparency 0.5
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.07 0.05 0.01
+          }
+        }
+      ]
+      name "touch2"
+      boundingObject USE SENSOR_SHAPE2
+      physics Physics {
+      }
+      type "bumper"
+      lookupTable []
     }
     GPS {
       name "gps1"

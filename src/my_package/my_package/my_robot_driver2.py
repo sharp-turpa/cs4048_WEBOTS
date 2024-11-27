@@ -59,8 +59,8 @@ class MyRobotDriver2:
 
 
     def __collision_callback(self, point):
-        self.__node.get_logger().info(f'RECEIVED GPS: {point}')
-        self.__node.get_logger().info(f'DISTANCE: {self.__calculate_distance(self.__get_pos(), point)}')
+        #self.__node.get_logger().info(f'RECEIVED GPS: {point}')
+        #self.__node.get_logger().info(f'DISTANCE: {self.__calculate_distance(self.__get_pos(), point)}')
         
         if self.__calculate_distance(self.__get_pos(), point) < 0.15:
             self.__paused = True
@@ -117,7 +117,7 @@ class MyRobotDriver2:
         if self.__paused:
             if self.__node.get_clock().now() >= self.__resume_time:
                 self.__paused = False
-                self.__node.get_logger().info('Resuming normal operations.')
+                #self.__node.get_logger().info('Resuming normal operations.')
 
         if not self.__paused:
             forward_speed = self.__target_twist.linear.x

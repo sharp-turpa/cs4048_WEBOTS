@@ -59,8 +59,8 @@ class MyRobotDriver:
 
     
     def __collision_callback(self, point):
-        self.__node.get_logger().info(f'RECEIVED ROBOT2 GPS: {point}')
-        self.__node.get_logger().info(f'DISTANCE2: {self.__calculate_distance(self.__get_pos(), point)}')
+        #self.__node.get_logger().info(f'RECEIVED ROBOT2 GPS: {point}')
+        #self.__node.get_logger().info(f'DISTANCE2: {self.__calculate_distance(self.__get_pos(), point)}')
         
         if self.__calculate_distance(self.__get_pos(), point) < 0.15:
             self.__paused = True
@@ -100,12 +100,14 @@ class MyRobotDriver:
             #self.__node.get_logger().info('LED ON')
 
     def step(self):
+        vel_stop = False
         rclpy.spin_once(self.__node, timeout_sec=0)
 
         touch_value = float(self.__touch_sensor.getValue())
 
         if touch_value > 0.0 and not self.__paused:  
            # self.__node.get_logger().info('Bump Detected')
+            vel_stop = True
             position = self.__gps.getValues()  
             msg = Point()
             msg.x = position[0]
@@ -116,9 +118,9 @@ class MyRobotDriver:
         if self.__paused:
             if self.__node.get_clock().now() >= self.__resume_time:
                 self.__paused = False
-                self.__node.get_logger().info('Resuming normal operations.')
+                #self.__node.get_logger().info('Resuming normal operations.')
 
-        if not self.__paused:
+        if not self.__paused and not vel_stop:
             forward_speed = self.__target_twist.linear.x
             angular_speed = self.__target_twist.angular.z
 

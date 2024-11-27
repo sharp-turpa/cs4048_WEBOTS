@@ -23,6 +23,9 @@ class MyRobotDriver:
         self.__gps = self.__robot.getDevice('gps0')
         self.__gps.enable(int(self.__robot.getBasicTimeStep()))
 
+        self.__led = self.__robot.getDevice('status_led0')
+        self.__led.set(0)
+
         self.__target_twist = Twist()
 
         rclpy.init(args=None)
@@ -35,6 +38,9 @@ class MyRobotDriver:
 
         self.__touch_publisher = self.__node.create_publisher(Point, '/robot1/collision', 10)
 
+        self.__led_on = False
+        self.__led_timer = self.__node.create_timer(0.5, self.__led_callback)
+
     def __cmd_vel_callback(self, twist):
         self.__target_twist = twist
 
@@ -46,6 +52,16 @@ class MyRobotDriver:
         msg.z = position[2]
         self.__gps_publisher.publish(msg)
         #self.__node.get_logger().info(f'Published ROBOT1 GPS Position: {msg}')
+
+    def __led_callback(self):
+        if self.__led_on:
+            self.__led.set(0)
+            self.__led_on = False
+            #self.__node.get_logger().info('LED OFF')
+        else:
+            self.__led.set(1)
+            self.__led_on = True
+            #self.__node.get_logger().info('LED ON')
 
     def step(self):
         rclpy.spin_once(self.__node, timeout_sec=0)

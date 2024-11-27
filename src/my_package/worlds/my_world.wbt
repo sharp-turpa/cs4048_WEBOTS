@@ -163,6 +163,24 @@ Robot {
       name "gps0"
       translation 0 0 0.05
     }
+    Transform {
+      translation 0 0 0.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            emissiveColor 0 0 0
+          }
+          geometry Sphere {
+            radius 0.02
+          }
+        }
+      ]
+      name "led_visual0"
+    }
+    LED {
+      name "status_led0"
+    }
   ]
   boundingObject Transform {
     translation 0 0 0.0415

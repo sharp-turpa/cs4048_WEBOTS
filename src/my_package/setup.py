@@ -27,6 +27,7 @@ setup(
             'obstacle_avoider = my_package.obstacle_avoider:main',
             'my_robot_driver2 = my_package.my_robot_driver2:main',
             'obstacle_avoider2 = my_package.obstacle_avoider2:main',
+            'flag_controller = my_package.flag_controller:main',
         ],
     },
 )

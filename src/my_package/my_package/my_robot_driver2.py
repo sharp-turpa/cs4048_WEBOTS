@@ -18,8 +18,11 @@ class MyRobotDriver2:
         self.__right_motor.setPosition(float('inf'))
         self.__right_motor.setVelocity(0)
 
+        self.__led = self.__robot.getDevice('status_led1')
+        self.__led.set(0)
         self.__touch_sensor = self.__robot.getDevice('touch2')
         self.__touch_sensor.enable(int(self.__robot.getBasicTimeStep()))
+
 
         self.__gps = self.__robot.getDevice('gps1')
         self.__gps.enable(int(self.__robot.getBasicTimeStep()))
@@ -38,6 +41,9 @@ class MyRobotDriver2:
 
         self.__touch_publisher = self.__node.create_publisher(Point, '/robot2/collision', 10)
         self.__node.create_subscription(Point, '/robot1/collision', self.__collision_callback, 10)
+
+        self.__led_on = False
+        self.__led_timer = self.__node.create_timer(0.5, self.__led_callback)
 
 
     def __cmd_vel_callback(self, twist):
@@ -82,6 +88,17 @@ class MyRobotDriver2:
         msg.z = position[2]
         self.__gps_publisher.publish(msg)
         #self.__node.get_logger().info(f'Published ROBOT2 GPS Position: {msg}')
+
+        
+    def __led_callback(self):
+        if self.__led_on:
+            self.__led.set(0)
+            self.__led_on = False
+            #self.__node.get_logger().info('LED OFF')
+        else:
+            self.__led.set(1)
+            self.__led_on = True
+            #self.__node.get_logger().info('LED ON')
 
     def step(self):
         rclpy.spin_once(self.__node, timeout_sec=0)

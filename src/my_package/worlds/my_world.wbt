@@ -300,6 +300,9 @@ Robot {
       name "gps1"
       translation 0 0 0.05
     }
+    LED {
+      name "status_led1"
+    }
   ]
   boundingObject Transform {
     translation 0 0 0.0415

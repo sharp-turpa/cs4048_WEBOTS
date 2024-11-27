@@ -28,6 +28,7 @@ Robot {
       pointLightIntensity 0.4
     }
     TouchSensor {
+      translation 0 0 0.18
       name "flagtouch"
       boundingObject DEF flag_cylinder Cylinder {
         height 0.3

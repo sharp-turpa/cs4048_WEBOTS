@@ -1,6 +1,7 @@
 import rclpy
 from geometry_msgs.msg import Twist, Point
 import time
+import math
 
 HALF_DISTANCE_BETWEEN_WHEELS = 0.045
 WHEEL_RADIUS = 0.025
@@ -40,14 +41,33 @@ class MyRobotDriver2:
             self.__target_twist = twist
 
 
+    def __calculate_distance(self, point1, point2):
+        dx = point2.x - point1.x
+        dy = point2.y - point1.y
+        dz = point2.z - point1.z
+        return math.sqrt(dx**2 + dy**2 + dz**2)
+
+
     def __collision_callback(self, point):
         self.__node.get_logger().info(f'RECEIVED GPS: {point}')
-        self.__paused = True
-        self.__resume_time = self.__node.get_clock().now() + rclpy.time.Duration(seconds=5)
+        self.__node.get_logger().info(f'DISTANCE: {self.__calculate_distance(self.__get_pos(), point)}')
+        
+        if self.__calculate_distance(self.__get_pos(), point) < 0.4:
+            self.__paused = True
+            self.__resume_time = self.__node.get_clock().now() + rclpy.time.Duration(seconds=5)
 
-        spin_speed = 0.25  # Adjust as needed for desired spin speed
-        self.__left_motor.setVelocity(-spin_speed / WHEEL_RADIUS)
-        self.__right_motor.setVelocity(spin_speed / WHEEL_RADIUS)
+            spin_speed = 0.25  # Adjust as needed for desired spin speed
+            self.__left_motor.setVelocity(-spin_speed / WHEEL_RADIUS)
+            self.__right_motor.setVelocity(spin_speed / WHEEL_RADIUS)
+
+
+    def __get_pos(self):
+        position = self.__gps.getValues()  
+        msg = Point()
+        msg.x = position[0]
+        msg.y = position[1]
+        msg.z = position[2]
+        return msg
 
 
     def publish_gps(self):

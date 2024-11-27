@@ -105,7 +105,7 @@ class MyRobotDriver:
         touch_value = float(self.__touch_sensor.getValue())
 
         if touch_value > 0.0 and not self.__paused:  
-            #self.__node.get_logger().info('Bump Detected')
+            self.__node.get_logger().info('Bump Detected')
             position = self.__gps.getValues()  
             msg = Point()
             msg.x = position[0]

@@ -4,7 +4,7 @@ from sensor_msgs.msg import Range
 from geometry_msgs.msg import Twist
 
 
-MAX_RANGE = 0.15
+MAX_RANGE = 0.11
 
 
 class ObstacleAvoider(Node):

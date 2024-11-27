@@ -3,6 +3,8 @@
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
 
 WorldInfo {
 }
@@ -18,6 +20,26 @@ TexturedBackgroundLight {
 CircleArena {
 }
 Robot {
+  children [
+    FloorLight {
+      bulbColor 1 0 0
+      scale 0.2
+      pointLightColor 1 0 0
+      pointLightIntensity 0.4
+    }
+    TouchSensor {
+      name "bump sensor"
+      boundingObject DEF flag_cylinder Cylinder {
+        height 0.3
+        radius 0.05
+      }
+    }
+  ]
+  name "flag"
+  boundingObject USE flag_cylinder
+}
+Robot {
+  translation -0.5 0 0
   children [
     HingeJoint {
       jointParameters HingeJointParameters {
@@ -191,7 +213,7 @@ Robot {
   name "my_robot"
 }
 Robot {
-  translation 0.5 0.5 0
+  translation 0 0.5 0
   children [
     HingeJoint {
       jointParameters HingeJointParameters {

@@ -52,11 +52,11 @@ class MyRobotDriver2:
         self.__node.get_logger().info(f'RECEIVED GPS: {point}')
         self.__node.get_logger().info(f'DISTANCE: {self.__calculate_distance(self.__get_pos(), point)}')
         
-        if self.__calculate_distance(self.__get_pos(), point) < 0.4:
+        if self.__calculate_distance(self.__get_pos(), point) < 0.3:
             self.__paused = True
             self.__resume_time = self.__node.get_clock().now() + rclpy.time.Duration(seconds=5)
 
-            spin_speed = 0.25  # Adjust as needed for desired spin speed
+            spin_speed = 0.25  # Adjust as needed for desired spin speed max 0.25
             self.__left_motor.setVelocity(-spin_speed / WHEEL_RADIUS)
             self.__right_motor.setVelocity(spin_speed / WHEEL_RADIUS)
 

@@ -300,6 +300,21 @@ Robot {
       name "gps1"
       translation 0 0 0.05
     }
+    Transform {
+      translation 0.0 0.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            emissiveColor 0 0 0
+          }
+          geometry Sphere {
+            radius 0.02
+          }
+        }
+      ]
+      name "led_visual1"
+    }
     LED {
       name "status_led1"
     }

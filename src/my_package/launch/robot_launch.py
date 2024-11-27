@@ -14,6 +14,7 @@ def generate_launch_description():
     package_dir = get_package_share_directory('my_package')
     robot_description_path = os.path.join(package_dir, 'resource', 'my_robot.urdf')
     robot2_description_path = os.path.join(package_dir, 'resource', 'my_robot_2.urdf')
+    flag_description_path = os.path.join(package_dir, 'resource', 'flag.urdf')
 
     webots = WebotsLauncher(
         world=os.path.join(package_dir, 'worlds', 'my_world.wbt')
@@ -43,10 +44,12 @@ def generate_launch_description():
         executable='obstacle_avoider2',
     )
 
-    flag_controller = Node(
-        package='my_package',
-        executable='flag_controller',
-    )
+    flag_controller = WebotsController(
+        robot_name='flag',
+        parameters=[
+            {'robot_description': flag_description_path},
+        ]
+,    )
 
 
     return LaunchDescription([

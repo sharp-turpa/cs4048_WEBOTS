@@ -7,6 +7,8 @@ data_files.append(('share/' + package_name + '/launch', ['launch/robot_launch.py
 data_files.append(('share/' + package_name + '/worlds', ['worlds/my_world.wbt']))
 data_files.append(('share/' + package_name + '/resource', ['resource/my_robot.urdf']))
 data_files.append(('share/' + package_name + '/resource', ['resource/my_robot_2.urdf']))
+data_files.append(('share/' + package_name + '/resource', ['resource/flag.urdf']))
+
 data_files.append(('share/' + package_name, ['package.xml']))
 
 setup(

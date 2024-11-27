@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="flag">
+    <webots>
+        <plugin type="my_package.flag_controller.FlagController" />
+    </webots>
+</robot>

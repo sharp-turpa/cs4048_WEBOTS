@@ -163,7 +163,8 @@ Robot {
       name "gps0"
       translation 0 0 0.05
     }
-    Transform {
+    LED {
+      name "status_led0"
       translation 0 0 0.1
       children [
         Shape {
@@ -176,10 +177,6 @@ Robot {
           }
         }
       ]
-      name "led_visual0"
-    }
-    LED {
-      name "status_led0"
     }
   ]
   boundingObject Transform {
@@ -340,7 +337,9 @@ Robot {
       name "gps1"
       translation 0 0 0.05
     }
-    Transform {
+    
+    LED {
+      name "status_led1"
       translation 0 0 0.1
       children [
         Shape {
@@ -353,10 +352,6 @@ Robot {
           }
         }
       ]
-      name "led_visual1"
-    }
-    LED {
-      name "status_led1"
     }
   ]
   boundingObject Transform {

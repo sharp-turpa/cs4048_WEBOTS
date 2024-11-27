@@ -1,23 +1,138 @@
-#VRML_SIM R2022b utf8
+#VRML_SIM R2023b utf8
 
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.33185733874619844 -0.09874274160469809 0.9381474178937331 3.686018050088086
-  position 1.700313773507203 1.0549607538959629 1.4846240848267684
-  follow "my_robot"
+  orientation -0.42233421110497504 0.0049203249137706115 0.906426833524406 3.1204798248353365
+  position 3.576040313755915 -0.13007890842033318 3.925236276134068
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
-CircleArena {
+
+Viewpoint {
+  orientation -0.33185733874619844 -0.09874274160469809 0.9381474178937331 3.686018050088086
+  position 1.700313773507203 1.0549607538959629 1.4846240848267684
+  follow "my_robot"
+}
+
+Floor {
+  size 3 3
+}
+Wall {
+  translation -1.5 0 0
+  name "boundary1"
+  size 0.05 3 0.2
+}
+Wall {
+  translation 1.5 0 0
+  name "boundary2"
+  size 0.05 3 0.2
+}
+Wall {
+  translation 0 -1.5 0
+  rotation 0 0 1 1.5707996938995747
+  name "boundary3"
+  size 0.05 3 0.2
+}
+Wall {
+  translation 0 1.5 0
+  rotation 0 0 1 1.5707996938995747
+  name "boundary4"
+  size 0.05 3 0.2
+}
+Solid {
+  translation 0.383277 -0.500903 9.28146e-14
+  children [
+    DEF stripWall Shape {
+      appearance PBRAppearance {
+        roughness 0.5
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 1 0.3
+      }
+    }
+  ]
+  boundingObject USE stripWall
+}
+Solid {
+  translation 0.877384 0.997393 -2.22045e-15
+  children [
+    USE stripWall
+  ]
+  name "solid(1)"
+  boundingObject USE stripWall
+}
+Solid {
+  translation -0.238026 -0.874231 -7.10543e-15
+  rotation 0 0 1 1.5707996938995747
+  children [
+    USE stripWall
+  ]
+  name "solid(2)"
+  boundingObject USE stripWall
+}
+Solid {
+  translation -0.62 0.5 -1.77636e-15
+  children [
+    USE stripWall
+  ]
+  name "solid(3)"
+  boundingObject USE stripWall
+}
+Solid {
+  translation -0.87 0.875 -1.33227e-14
+  children [
+    DEF block_wall Shape {
+      appearance PBRAppearance {
+        roughness 0.5
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.3
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE block_wall
+}
+Solid {
+  translation 0.632572 -0.127299 0
+  children [
+    USE block_wall
+  ]
+  name "solid(5)"
+  boundingObject USE block_wall
 }
 Robot {
+  children [
+    FloorLight {
+      bulbColor 1 0 0
+      scale 0.2
+      pointLightColor 1 0 0
+      pointLightIntensity 0.4
+    }
+    TouchSensor {
+      name "bump sensor"
+      boundingObject DEF flag_cylinder Cylinder {
+        height 0.3
+        radius 0.02
+      }
+    }
+  ]
+  name "flag"
+  boundingObject USE flag_cylinder
+}
+Robot {
+  translation 0.5 0.5 0
   children [
     HingeJoint {
       jointParameters HingeJointParameters {
@@ -172,7 +287,7 @@ Robot {
   name "my_robot"
 }
 Robot {
-  translation 0.5 0.5 0
+  translation 0 0.2 0
   children [
     HingeJoint {
       jointParameters HingeJointParameters {

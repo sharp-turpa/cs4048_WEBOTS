@@ -22,9 +22,6 @@ class MyRobotDriver2:
         self.__led = self.__robot.getDevice('status_led1')
         self.__led.set(0)
 
-        self.__led_visual = self.__robot.getFromDef('led_visual1')
-        self.__led_material = self.__led_visual.getField("children")[0].getField("appearance").getSFNode().getField("emissiveColor")
-
         self.__gps = self.__robot.getDevice('gps1')
         self.__gps.enable(int(self.__robot.getBasicTimeStep()))
 
@@ -92,12 +89,10 @@ class MyRobotDriver2:
     def __led_callback(self):
         if self.__led_on:
             self.__led.set(0)
-            self.__led_material.setSFColor([0.0, 0.0, 0.0])
             self.__led_on = False
             #self.__node.get_logger().info('LED OFF')
         else:
             self.__led.set(1)
-            self.__led_material.setSFColor([1.0, 0.0, 0.0])
             self.__led_on = True
             #self.__node.get_logger().info('LED ON')
 
